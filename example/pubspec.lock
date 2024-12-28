@@ -52,9 +52,11 @@ packages:
   device_name:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      path: "."
+      ref: main
+      resolved-ref: ebb873d27f8a517e5b3e798b069119e97a9609f2
+      url: "https://github.com/semakers/get_name.git"
+    source: git
     version: "0.0.1"
   fake_async:
     dependency: transitive
